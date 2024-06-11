@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explora el portafolio de Samuel Mejía, un apasionado desarrollador Front-End. Descubre sus proyectos, habilidades y premios. ¡Contáctalo hoy para iniciar tu próximo proyecto web!">
+    <meta name="keywords" content="desarrollador web, Front-End, proyectos web, portafolio, Samuel Mejía">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+        integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/2.png" type="image/png">
+    <title class="traducir" data-traduccion="portafolio">Portafolio</title>
+
+    <!--Correo-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('_H57MGQF48rXBwAt9')
+    </script>
+    <!--Correo-->
+
+</head>
+
+<body>
+    <!-- Seccion Inicio -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header id="sticky-header" class="nav">
+                    <div class="logo">
+                        <img src="img/2.png" alt="">
+                    </div>
+                    <nav id="nav" class="">
+                        <a id="active" href="#inicio" class="traducir" data-traduccion="inicio">Inicio</a>
+                        <a href="#sobremi" class="traducir" data-traduccion="sobremi">Sobre mí</a>
+                        <a href="#trabajos" class="traducir" data-traduccion="proyectos">Proyectos</a>
+                        <a href="#testimonios" class="traducir" data-traduccion="testimonio">Testimonios</a>
+                        <a href="#premios" class="traducir" data-traduccion="premios">Premios</a>
+                        <a href="#contacto" class="traducir" data-traduccion="contacto">Contacto</a>
+                    </nav>
+
+                    <div class="idiomas">
+                        <span class="en"></span>
+                        <input type="checkbox" class="check" id="miCheckbox">
+                        <span class="es"></span>
+                    </div>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </header>
+
+                <div class="fila">
+                    <div class="col">
+                        <h2 class="traducir" data-traduccion="titulo">Desarrollador Front-End</h2>
+                        <p class="traducir" data-traduccion="saludo">¡Hola 👋! Soy Samuel, un apasionado desarrollador
+                            web Front-End.
+                            He creado soluciones eficientes y escalables para diversos proyectos. Mi enfoque combina la
+                            funcionalidad sólida con un toque creativo.
+                            ¡Explora mi portafolio para descubrir más sobre mi trabajo!</p>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/samu.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!--  seccion SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="traducir" data-traduccion="sobremi">Sobre Mí</h2>
+            <p><span class="traducir" data-traduccion="saludar">Hola 👋, soy Samuel Mejía.</span>
+            <p class="traducir" data-traduccion="infosobremi">Soy un apasionado desarrollador Front-End en constante
+                crecimiento,
+                actualmente cursando mi cuarto año en la Universidad Gerardo Barrios Usulután. Mi viaje en el mundo del
+                desarrollo web ha sido emocionante,
+                marcado por la creación de proyectos educativos y significativos como "MyEducacin" e "ISMNEST". Además,
+                tuve la oportunidad de llevar mi creatividad a nuevas alturas de ser diseñador de "Second Language",
+                también de diseñar y construir dos robots a control remoto, apodados "Rocky" y "Apollo",
+                durante mi experiencia en INNOTECH.</p>
+            </p>
+
+            <div class="fila_s">
+                <div class="col_s">
+                    <div class="details">
+                        <div class="infos">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span class="titulo-detalle traducir" data-traduccion="interes">Área de interés</span>
+                            <p class="traducir" data-traduccion="desarrollo">-Diseño y desarrollo Front-End</p>
+                            <p class="traducir" data-traduccion="desarrolloB">-Desarrollo Back-End</p>
+                            <p class="traducir" data-traduccion="redes">-Administración de redes</p>
+                            <p class="traducir" data-traduccion="BD">-Administración de bases de datos</p>
+
+                        </div>
+                        <div class="infos">
+                            <i class="fa-solid fa-brain"></i>
+                            <span class="titulo-detalle traducir" data-traduccion="Skills_duras">Habilidades
+                                Duras</span>
+                            <p class="traducir" data-traduccion="framework">-Uso Framework de diseño (Bootstrap y React)
+                            </p>
+                            <p class="traducir" data-traduccion="Back">-PHP, Python y C#</p>
+                            <p class="traducir" data-traduccion="redes_IPV4">-Administración de redes IPV4</p>
+                            <p class="traducir" data-traduccion="SQL">-Uso intermedio de SQL</p>
+                        </div>
+                        <div class="infos">
+                            <i class="fa-solid fa-heart"></i>
+                            <span class="titulo-detalle traducir" data-traduccion="Skills_blandas">Habilidades
+                                Blandas</span>
+                            <p class="traducir" data-traduccion="liderazgo">-Liderazgo</p>
+                            <p class="traducir" data-traduccion="work_teams">-Trabajo en equipo</p>
+                            <p class="traducir" data-traduccion="service">-Actitud de servicio</p>
+                            <p class="traducir" data-traduccion="etica">-Ética profesional</p>
+                        </div>
+                        <div class="infos">
+                            <i class="fa-solid fa-flag"></i>
+                            <span class="titulo-detalle traducir" data-traduccion="valors">Valores profesionales</span>
+                            <p class="traducir" data-traduccion="respeto">-Respeto</p>
+                            <p class="traducir" data-traduccion="solidaridad">-Solidaridad</p>
+                            <p class="traducir" data-traduccion="responsabilidad">-Responsabilidad</p>
+                            <p class="traducir" data-traduccion="lealtad">-Lealtad</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col_s">
+                    <h3 class="traducir" data-traduccion="intereses">Hobbies</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span class="traducir" data-traduccion="desarrollador">DESARROLLADOR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span class="traducir" data-traduccion="guitarra">GUITARRA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span class="traducir" data-traduccion="musica">MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span class="traducir" data-traduccion="deporte">DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span class="traducir" data-traduccion="juegos">JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span class="traducir" data-traduccion="viajar">VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="traducir" data-traduccion="autos">AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-link"></i>
+                            <span class="traducir" data-traduccion="fotos">REDES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="donwloadButton" class="btn btn-1 traducir" data-traduccion="botonCV">Descargar CV<i
+                    class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SECCION TRABAJOS-->
+    <!-- <section id="container-slider">
+        <h2 class="traducir" data-traduccion="trabajos">Mis Trabajos</h2>
+        <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i
+                class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i
+                class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+            <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+            <li><a itlist="itList_1" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider" style="border-radius: 10px;">
+            <li style="background-image: url('./img/niñofinance_low\ \(1\).png'); z-index:0; opacity: 1;" alt="Diseño educativo con colores brillantes y elementos de aprendizaje interactivo">
+                <div class="content_slider">
+                    <div>
+                        <h2>MyEducacin</h2>
+                        <p>Un programa interactivo para que niños de primaria aprendan a reconocer monedas mediante juegos.
+                        </p>
+                        <p>Utilizando HTML, CSS, JS y MySQL, se crearán actividades prácticas y divertidas que fomenten la comprensión del valor monetario.</p>
+                        <p>Rol desempeñado: Front-End y Back-End</p>
+                        <a href="https://github.com/SamuelIsai/MyEducacin_.git" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('./img/ico_ismnest.jpg');" alt="Interfaz web con elementos de diseño moderno y contenido informativo">
+                <div class="content_slider">
+                    <div>
+                        <h2>ISMNEST</h2>
+                        <p>Una aplicación de escritorio para registrar nidos de tortugas marinas, optimizando la recopilación y gestión de datos mediante el uso de C# y MySQL.</p>
+                        <p>La aplicación permite registrar y monitorear nidos de tortugas marinas, facilitando su seguimiento y contribuyendo a su conservación.</p>
+                        <p>Rol desempeñado: Front-End y Back-End</p>
+                        <a href="https://github.com/SamuelIsai/ISMNEST_.git" target="_blank" class="btnSlider">Acceder</a>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url('./img/Parcial_II.png');" alt="Casa cubierta de nieve en un paisaje invernal">
+                <div class="content_slider">
+                    <div>
+                        <h2>Refugio nevado</h2>
+                        <p>Una imagen 3D realista de una casa cubierta de nieve y árboles, utilizando Blender, para crear una atmósfera invernal inmersiva.</p>
+                        <p>Se ha creado una escena detallada, texturizado y renderizado escenas tridimensionales, con el fin de evocar un paisaje invernal evocador y cautivador.</p>
+                        <p>Rol desempeñado: Diseñador 3D</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>-->
+    <section id="trabajos">
+        <h2 style="margin-top: 40px;" class="traducir" data-traduccion="trabajos">Mis Trabajos</h2>
+        <div id="scene">
+            <div id="left-zone">
+                <ul class="list">
+                    <li class="item">
+                        <input type="radio"
+                            id="radio_The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)"
+                            name="basic_carousel"
+                            value="The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)"
+                            checked="checked" />
+                        <label class="label_strawberry"
+                            for="radio_The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)">MyEducacin</label>
+                        <div class="content content_strawberry"><span class="picto"></span>
+                            <h1>MyEducacin</h1>
+                            <p class="traducir" data-traduccion="appmyeducacin">Un programa interactivo para que niños de primaria aprendan a reconocer monedas mediante
+                                juegos.
+                            </p>
+                            <p class="traducir" data-traduccion="myeducacininfo">Utilizando HTML, CSS, JS y MySQL, se crearon actividades prácticas y divertidas que
+                                fomenten la comprensión del valor monetario.</p>
+                            <p class="traducir" data-traduccion="myeducacinrol">Rol desempeñado: Front-End y Back-End</p>
+                            <p class="flecha"
+                                style="margin-left: 310px; position: relative; font-size: 30px; cursor: none;">→</p>
+                            <a href="https://github.com/SamuelIsai/MyEducacin_.git" target="_blank"
+                                class="btnSlider traducir" data-traduccion="verproyecto">Ver proyecto</a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <input type="radio"
+                            id="radio_A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa."
+                            name="basic_carousel"
+                            value="A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa." />
+                        <label class="label_banana"
+                            for="radio_A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.">ISMNEST</label>
+                        <div class="content content_banana"><span class="picto"></span>
+                            <h1>ISMNEST</h1>
+                            <p class="traducir" data-traduccion="appismnest">Una aplicación de escritorio para registrar nidos de tortugas marinas, optimizando la
+                                recopilación y gestión de datos mediante el uso de C# y MySQL.</p>
+                            <p class="traducir" data-traduccion="ismnestinfo">La aplicación permite registrar y monitorear nidos de tortugas marinas, facilitando su
+                                seguimiento y contribuyendo a su conservación.</p>
+                            <p class="traducir" data-traduccion="ismnestrol">Rol desempeñado: Front-End y Back-End</p>
+                            <p class="flecha"
+                                style="margin-left: 310px; position: relative; font-size: 30px; cursor: none;">↔</p>
+                            <a href="https://github.com/SamuelIsai/ISMNEST_.git" target="_blank" class="btnSlider traducir" data-traduccion="verproyecto">Ver
+                                proyecto</a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <input type="radio"
+                            id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus."
+                            name="basic_carousel"
+                            value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." />
+                        <label class="label_apple"
+                            for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.">Refugio
+                            Nevado</label>
+                        <div class="content content_apple"><span class="picto"></span>
+                            <h1 style="color: #4c5646">Refugio Nevado</h1>
+                            <p class="traducir" data-traduccion="nevado">Una imagen 3D realista de una casa cubierta de nieve y árboles, utilizando Blender, para
+                                crear una atmósfera invernal inmersiva.</p>
+                            <p class="traducir" data-traduccion="nevadoinfo">Se ha creado una escena detallada, texturizado y renderizado escenas tridimensionales,
+                                con el fin de evocar un paisaje invernal evocador y cautivador.</p>
+                            <p class="traducir" data-traduccion="nevadorol">Rol desempeñado: Diseñador 3D</p>
+                            <p class="flecha"
+                                style="margin-left: 310px; position: relative; font-size: 30px; cursor: none;">←</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="middle-border"></div>
+            <div id="right-zone"></div>
+        </div>
+    </section>
+    <hr style="margin-top: 40px; background-color: #675a94;">
+
+    <!-- SESION DE T E S T I M O N I O S-->
+    <!--<section style="height: 600px;">
+        <div class='wrapper'>
+            <div class='carousel'>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐳
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>Lic. Máster. Oscar Roberto Torres Rodríguez
+                            Teléfono: 2632-1510
+                            Email: ortorres@ugb.edu.sv</p>
+                        <p>Yo Oscar Roberto Torres Rodríguez, Licenciado en Computación del origen y domicilio de Santa Elena y actualmente docente tiempo completo de la Facultad de Ciencias y Tecnologías de la Universidad Gerardo Barrios de Usulután, HAGO CONSTAR QUE:
+
+                            Samuel Isaí Mejía Alfaro, es estudiante del ciclo VII de Ingeniería en Sistemas y Redes Informática, de la Universidad “Gerardo Barrios”, afirmo que él es una persona de excelente conducta, honrado, intachable, responsable en todos sus actos y en cuanto a su rol como estudiante es disciplinado, autodidacta, y su participación en equipo es ejemplar, mostrando una capacidad para colaborar efectivamente con sus compañeros. Además, posee un amplio dominio en áreas clave como redes y bases de datos, y su disposición para compartir estos conocimientos promete contribuir significativamente al avance de la comunidad académica y profesional.
+                            
+                            Para los usos que el interesado estime conveniente, le extiendo la presente en la ciudad de Usulután a los 11 días del mes de junio del 2024</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐋
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>whale</p>
+                        <p>Unicode: U+1F40B</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐬
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>dolphin</p>
+                        <p>Unicode: U+1F42C</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐟
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>fish</p>
+                        <p>Unicode: U+1F41F</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐠
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>tropical fish</p>
+                        <p>Unicode: U+1F420</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐡
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>blowfish</p>
+                        <p>Unicode: U+1F421</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🦈
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>shark</p>
+                        <p>Unicode: U+1F988</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐙
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>octopus</p>
+                        <p>Unicode: U+1F419</p>
+                    </div>
+                </div>
+                <div class='carousel__item'>
+                    <div class='carousel__item-head'>
+                        🐚
+                    </div>
+                    <div class='carousel__item-body'>
+                        <p class='title'>spiral shell</p>
+                        <p>Unicode: U+1F41A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>-->
+    <section id="testimonios">
+        <div class="testimonials-container">
+            <h2 class="traducir" data-traduccion="testimonio">Testimonios</h2>
+            <div class="testimonials-carousel">
+                <button class="prev-btn" onclick="prevTestimonial()">&#10094;</button>
+                <div class="testimonial">
+                    <p class="quote traducir" data-traduccion="testimonio1">Keep on jumping to get the most of the jump
+                        rope exercise. It will help you to
+                        increase your bone density as well.</p>
+                    <p class="author">John Doe</p>
+                    <p class="position traducir" data-traduccion="cargo1">Senior Vice President</p>
+                    <!--<img src="https://via.placeholder.com/100" alt="John Doe" class="avatar">-->
+                </div>
+                <button class="next-btn" onclick="nextTestimonial()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SESION PREMIOS -->
+    <section id="premios">
+        <div class="contenido-premios" style="margin-top: 100px;">
+            <h3 class="traducir" data-traduccion="premios">Premios y Certificaciones</h3>
+            <div class="fila-premios">
+                <div class="col-premios">
+                    <img alt="" src="img/CLIC2021.jpg" width="150" height="110">
+                    <span class="titulo-detalle">CLIC 2021</span>
+                    <div class="filacv">
+                        <div class="cv">
+                            <a class="traducir" data-traduccion="ver" href="img/CLIC2021.jpg">VER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-premios">
+                    <img alt="" src="img/CLIC2022_CERT.jpg" width="150" height="110">
+                    <span class="titulo-detalle">CLIC 2022</span>
+                    <div class="filacv">
+                        <div class="cv">
+                            <a class="traducir" data-traduccion="ver" href="img/CLIC2022_CERT.jpg">VER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-premios">
+                    <img alt="" src="img/CSC2021_CERT.jpg" width="150" height="110">
+                    <span class="titulo-detalle traducir" data-traduccion="CSC2021">Desafío de habilidades en la nube
+                        2021</span>
+                    <div class="filacv">
+                        <div class="cv">
+                            <a class="traducir" data-traduccion="ver" href="img/CSC2021_CERT.jpg">VER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-premios">
+                    <img alt="" src="img/CSC2022_CERT.jpg" width="150" height="110">
+                    <span class="titulo-detalle traducir" data-traduccion="CSC2022">Desafío de habilidades en la nube
+                        2022</span>
+                    <div class="filacv">
+                        <div class="cv">
+                            <a class="traducir" data-traduccion="ver" href="img/CSC2022_CERT.jpg">VER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-premios">
+                    <img alt="" src="img/AWS_CERT.jpg" width="150" height="110">
+                    <span class="titulo-detalle traducir" data-traduccion="AWS">Día de descubrimiento de AWS</span>
+                    <div class="filacv">
+                        <div class="cv">
+                            <a class="traducir" data-traduccion="ver" href="img/AWS_CERT.jpg">VER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-premios">
+                    <img alt="" src="img/TercerLugarRobots.jpg" width="150" height="110">
+                    <span class="titulo-detalle traducir" data-traduccion="competencia">Tercer Lugar Competencia de
+                        Robots</span>
+                    <div class="filacv">
+                        <div class="cv">
+                            <a class="traducir" data-traduccion="ver" href="img/TercerLugarRobots.jpg">VER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2 class="traducir" data-traduccion="contacto">Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3 class="traducir" data-traduccion="email"><i class="fa-solid fa-phone"></i> Correo</h3>
+                        <p>mejiasamuel023@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3 class="traducir" data-traduccion="telefono"> <i class="fa-solid fa-envelope"></i> Teléfono
+                        </h3>
+                        <p>+503 6860-9702</p>
+                    </div>
+                    <div class="info">
+                        <h3 class="traducir" data-traduccion="pais"><i class="fa-solid fa-globe"></i> País</h3>
+                        <p>El Salvador</p>
+                    </div>
+                    <div class="info">
+                        <h3 class="traducir" data-traduccion="distrito"><i class="fa-solid fa-location-dot"></i>
+                            Distrito</h3>
+                        <p>San Dionisio</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <form id="form" method="POST">
+                        <input class="traducir" data-traduccion="nombre..." type="text" name="from_name" id="from_name"
+                            required placeholder="Nombre...">
+                        <input class="traducir" data-traduccion="correo..." type="email" name="correo_id" id="correo_id"
+                            required placeholder="Tu correo...">
+                        <textarea class="traducir" data-traduccion="mensaje" name="mensaje" id="mensaje" cols="30"
+                            rows="10" required placeholder="Mensaje"></textarea>
+                        <input class="btn traducir" data-traduccion="enviar" name="enviar" id="button" type="submit"
+                            value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--para mostrar las notificaciones de Bootstrap -->
+    <div class="notification-container" style="position: fixed; top: 20px; right: 20px; z-index: 9999;"></div>
+
+
+    <footer class="footer">
+        <h2>Samuel</h2>
+        <p class="traducir" data-traduccion="footer">Gracias por considerar mi perfil. Estoy entusiasmado con la
+            oportunidad de contribuir y aprender en un entorno dinámico. <br>
+            Para más detalles, visita mis redes sociales.</p>
+        <div class="redes">
+            <!--<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>-->
+            <a href="https://www.linkedin.com/in/samuel-mej%C3%ADa-b147492b6/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/SamuelIsai"><i class="fa-brands fa-github"></i></a>
+            <!--<a href=""><i class="fa-solid fa-envelope"></i></a>-->
+        </div>
+    </footer>
+    <footer>
+        <p class="traducir" data-traduccion="copyrigh">© 2024 Samuel. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            if (this.checkValidity()) {
+                btn.value = 'Enviando...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_zibtfaa';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        const notificationContainer = document.querySelector('.notification-container');
+                        notificationContainer.innerHTML = '';
+
+                        const successNotification = `
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>¡Enviado!</strong> Tu mensaje ha sido enviado correctamente.
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        `;
+                        notificationContainer.innerHTML = successNotification;
+
+                        const closeButton = notificationContainer.querySelector('.btn-close');
+                        closeButton.addEventListener('click', function () {
+                            notificationContainer.innerHTML = '';
+                        });
+
+                        btn.value = 'Enviar';
+
+                        setTimeout(function () {
+                            notificationContainer.innerHTML = '';
+                        }, 8000);
+                    })
+                    .catch((err) => {
+                        const notificationContainer = document.querySelector('.notification-container');
+                        notificationContainer.innerHTML = '';
+
+                        const errorNotification = `
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <strong>Error:</strong> ${err}
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        `;
+                        notificationContainer.innerHTML = errorNotification;
+
+                        const closeButton = notificationContainer.querySelector('.btn-close');
+                        closeButton.addEventListener('click', function () {
+                            notificationContainer.innerHTML = '';
+                        });
+
+                        btn.value = 'Enviar';
+                    });
+            } else {
+                this.reportValidity();
+            }
+        });
+
+
+        var traducciones = {
+            'es': {
+                'portafolio': 'Portafolio',
+                // I N I C I O
+                'inicio': 'Inicio',
+                'sobremi': 'Sobre mí',
+                'habilidades': 'Habilidades',
+                'proyectos': 'Proyectos',
+                'contacto': 'Contacto',
+                'titulo': 'Desarrollador Front-End',
+                'saludo': '¡Hola 👋! Soy Samuel, un apasionado desarrollador web Front-End. He creado soluciones eficientes y escalables para diversos proyectos. Mi enfoque combina la funcionalidad sólida con un toque creativo. ¡Explora mi portafolio para descubrir más sobre mi trabajo!',
+
+                //S O B R E  M I
+                'saludar': 'Hola 👋, soy Samuel Mejía.',
+                'infosobremi': 'Soy un apasionado desarrollador Front-End en constante crecimiento, actualmente cursando mi cuarto año en la Universidad Gerardo Barrios Usulután. Mi viaje en el mundo del desarrollo web ha sido emocionante, marcado por la creación de proyectos educativos y significativos como "MyEducacin" e "ISMNEST". Además, tuve la oportunidad de llevar mi creatividad a nuevas alturas de ser diseñador de "Second Language", también de diseñar y construir dos robots a control remoto, apodados "Rocky" y "Apollo", durante mi experiencia en INNOTECH.',
+                //Skills
+                'interes': 'Área de interés',
+                'desarrollo': '-Diseño y desarrollo Front-End',
+                'desarrolloB': '-Desarrollo Back-End',
+                'redes': '-Administración de redes',
+                'BD': '-Administración de bases de datos',
+                'Skills_duras': 'Habilidades Duras',
+                'framework': '-Uso Framework de diseño (Bootstrap y React)',
+                'Back': '-PHP, Python y C#',
+                'redes_IPV4': '-Administración de redes IPV4',
+                'SQL': '-Uso intermedio de SQL',
+                'Skills_blandas': 'Habilidades Blandas',
+                'liderazgo': '-Liderazgo',
+                'work_teams': '-Trabajo en equipo',
+                'service': '-Actitud de servicio',
+                'etica': '-Ética profesional',
+                'valors': 'Valores profesionales',
+                'respeto': '-Respeto',
+                'solidaridad': '-Solidaridad',
+                'responsabilidad': '-Responsabilidad',
+                'lealtad': '-Lealtad',
+                //intereses
+                'intereses': 'Hobbies',
+                'desarrollador': 'DESARROLLADOR',
+                'guitarra': 'GUITARRA',
+                'musica': 'MÚSICA',
+                'deporte': 'DEPORTE',
+                'juegos': 'JUEGOS',
+                'viajar': 'VIAJAR',
+                'autos': 'AUTOS',
+                'fotos': 'REDES',
+                'botonCV': 'Descargar CV',
+
+                //T R A B A J O S
+                'trabajos': 'Mis Trabajos',
+                'appmyeducacin': 'Un programa interactivo para que niños de primaria aprendan a reconocer monedas mediante juegos.',
+                'myeducacininfo': 'Utilizando HTML, CSS, JS y MySQL, se crearon actividades prácticas y divertidas que fomenten la comprensión del valor monetario.',
+                'myeducacinrol': 'Rol desempeñado: Front-End y Back-End',
+                'verproyecto': 'Ver Proyecto',
+
+                'appismnest':'Una aplicación de escritorio para registrar nidos de tortugas marinas, optimizando la recopilación y gestión de datos mediante el uso de C# y MySQL.',
+                'ismnestinfo':'La aplicación permite registrar y monitorear nidos de tortugas marinas, facilitando su seguimiento y contribuyendo a su conservación.',
+                'ismnestrol':'Rol desempeñado: Front-End y Back-End',
+
+                'nevado':'Una imagen 3D realista de una casa cubierta de nieve y árboles, utilizando Blender, para crear una atmósfera invernal inmersiva.',
+                'nevadoinfo':'Se ha creado una escena detallada, texturizado y renderizado escenas tridimensionales con el fin de evocar un paisaje invernal evocador y cautivador.',
+                'nevadorol':'Rol desempeñado: Diseñador 3D',
+
+                //T E S T I M O N I O S
+                'testimonio': 'Testimonios',
+                'testimonio1': `Yo Herbert René Cordero Henríquez, Licenciado de profesión y docente de la Universidad Gerardo Barrios, doy mi recomendación por este medio de Samuel Isaí Mejía Alfaro quien es mi estudiante, cursando la carrera de Ingeniería en Sistemas y Redes Informáticas y conozco desde hace 4 años.
+                    Como estudiante ha mostrado respeto a los docentes y compañeros, completa dedicación a las actividades y proyectos de estudio. Demuestra poseer buenas habilidades, trabajo en equipo y disponibilidad en los quehaceres de la Facultad de Ciencia y Tecnología y gran sentido de responsabilidad.
+                    Es una excelente persona, con gran carisma y habilidades sociales; su forma de pensar estratégica la hace muy apta para desarrollar cualquier tarea. Por su aptitud y actitud tiene gran interés por superarse. Por lo que estoy seguro que llegará a ser una de las mejores en lo que se dedique o emprenda.
+                    Para los usos que la interesada estime conveniente, se extiende la presente a los once días del mes de junio de dos mil veinticuatro.`,
+                'cargo1': 'Docente de la Facultad de Ciencia y Tecnología',
+                'testimonio2': `Yo Oscar Roberto Torres Rodríguez, Licenciado en Computación del origen y domicilio de Santa Elena y actualmente docente tiempo completo de la Facultad de Ciencias y Tecnologías de la Universidad Gerardo Barrios de Usulután, HAGO CONSTAR QUE:
+                    Samuel Isaí Mejía Alfaro, es estudiante del ciclo VII de Ingeniería en Sistemas y Redes Informática, de la Universidad “Gerardo Barrios”, afirmo que él es una persona de excelente conducta, honrado, intachable, responsable en todos sus actos y en cuanto a su rol como estudiante es disciplinado, autodidacta, y su participación en equipo es ejemplar, mostrando una capacidad para colaborar efectivamente con sus compañeros. Además, posee un amplio dominio en áreas clave como redes y bases de datos, y su disposición para compartir estos conocimientos promete contribuir significativamente al avance de la comunidad académica y profesional.
+                    Para los usos que el interesado estime conveniente, le extiendo la presente en la ciudad de Usulután a los 11 días del mes de junio del 2024.`,
+                'testimonio3': `Reciba un cordial y respetuoso saludo. A través de estas lineas deseo hacer de su conocimiento que Samuel Isai Mejia Alfaro quien es estudiante de la carrera de ingeniera en sistema y
+                    redes informáticas, es un estudiante con una conducta intachable. Ha demostrado ser un ordenado,
+                    comprometido, responsable y fiel cumplidor de sus tareas. Siempre ha manifestado preocupación
+                    por mejorar, capacitarse y actualizar sus conocimientos.
+                    
+                    Durante este ciclo I-2024 se ha desempeñado de forma excelente en la asignatura de robótica,
+                    desarrollando un robot basado en software y hardware libre. Es por ello que, le sugiero
+                    esta recomendación, con la confianza de que estará siempre a la altura de sus compromisos y
+                    responsabilidades.
+                    
+                    Sin mas nada a que referirme y, esperando que esta misiva sea tomada en cuenta, dejo mi correo de
+                    contacto para cualquier informacion de interés.`,
+                'testimonio4': `Yo Alcir Gustavo Quintanilla Rodríguez, Ingeniero de profesión y docente de la 
+                    Universidad Gerardo Barrios, doy mi recomendación por este medio de Mejía Alfaro 
+                    Samuel Isaí quien es mi estudiante, cursando la carrera de Ingeniería en Sistemas y 
+                    Redes Informáticas y conozco desde hace 4 años. 
+                    Como estudiante ha mostrado respeto a los docentes y compañeros, completa 
+                    dedicación a las actividades y proyectos de estudio. Demuestra poseer buenas 
+                    habilidades, trabajo en equipo y disponibilidad en los quehaceres de la Facultad de 
+                    Ciencia y Tecnología y gran sentido de responsabilidad. 
+                    Es una excelente persona, con gran carisma y habilidades sociales; su forma de 
+                    pensar estratégica lo hace muy apto para desarrollar cualquier tarea. Por su aptitud 
+                    y actitud tiene gran interés por superarse. Por lo que estoy seguro que llegará a ser 
+                    unos de las mejores en lo que se dedique o emprenda. 
+                    Para los usos que la interesada estime conveniente, se extiende la presente a los diez 
+                    días del mes de junio de dos mil veinticuatro.`,
+
+
+                //P R E M I O S
+                'premios': 'Premios y Certificaciones',
+                'ver': 'VER',
+                'CSC2021': 'Desafío de habilidades en la nube 2021',
+                'CSC2022': 'Desafío de habilidades en la nube 2022',
+                'AWS': 'Día de descubrimiento de AWS',
+                'competencia': 'Tercer Lugar Competencia de Robots',
+
+                //C O N T A C T O
+                'contacto': 'Contacto',
+                'email': 'Correo',
+                'telefono': 'Teléfono',
+                'pais': 'País:',
+                'distrito': 'Distrito',
+                'nombre...': 'Nombre...',
+                'correo...': 'Tu correo...',
+                'mensaje': 'Mensaje',
+                'enviar': 'Enviar',
+
+                //CopyRigh
+                'footer': 'Gracias por considerar mi perfil. Estoy entusiasmado con la oportunidad de contribuir y aprender en un entorno dinámico. Para más detalles, visita mis redes sociales.',
+                'copyrigh': '© 2024 Samuel. Todos los derechos reservados.',
+            },
+            'en': {
+                'portafolio': 'Portfolio',
+                //I N I C I O
+                'inicio': 'Home',
+                'sobremi': 'About me',
+                'habilidades': 'Skills',
+                'proyectos': 'Projects',
+                'contacto': 'Contact',
+                'titulo': 'Front-End Developer',
+                'saludo': "Hello 👋! I'm Samuel, a passionate Front-End web developer. I have created efficient and scalable solutions for various projects. My approach combines solid functionality with a creative touch. Explore my portfolio to discover more about my work!",
+
+                //S O B R E  M I
+                'saludar': "Hello 👋, I'm Samuel Mejía.",
+                'infosobremi': 'I am a passionate Front-End developer in constant growth, currently in my fourth year at Gerardo Barrios University in Usulután. My journey in the world of web development has been exciting, marked by the creation of educational and meaningful projects such as "MyEducacin" and "ISMNEST." Additionally, I had the opportunity to take my creativity to new heights by being the designer for "Second Language." I also designed and built two remote-controlled robot, nicknamed "Rocky" and "Apollo," during my experience at INNOTECH.',
+                //Skills
+                'interes': 'Field of Interest',
+                'desarrollo': '-Front-End Design and Development',
+                'desarrolloB': '-Back-End Development',
+                'redes': '-Network Administration',
+                'BD': '-Database Administration',
+                'Skills_duras': 'Hard Skills',
+                'framework': '-Utilization of Design Framework (Bootstrap and React)',
+                'Back': '-PHP, Python and C#',
+                'redes_IPV4': '-IPV4 Network Administration',
+                'SQL': '-Intermediate SQL Proficiency',
+                'Skills_blandas': 'Soft Skills',
+                'liderazgo': '-Leadeship',
+                'work_teams': '-Teamwork',
+                'service': '-Service Attitude',
+                'etica': '-Professional Ethics',
+                'valors': 'Professional Values',
+                'respeto': '-Respect',
+                'solidaridad': '-Solidarity',
+                'responsabilidad': '-Responsibility',
+                'lealtad': '-Loyalty',
+                //intereses
+                'intereses': 'Interests',
+                'desarrollador': 'DEVELOPER',
+                'guitarra': 'GUITAR',
+                'musica': 'MUSIC',
+                'deporte': 'SPORT',
+                'juegos': 'GAMES',
+                'viajar': 'TRAVEL',
+                'autos': 'CARS',
+                'fotos': 'NETWORKS',
+                'botonCV': 'Download CV',
+
+                //T R A B A J O S
+                'trabajos': 'My works',
+                'appmyeducacin': 'An interactive program for primary school children to learn to recognize coins through games.',
+                'myeducacininfo': 'Using HTML, CSS, JS, and MySQL, fun, hands-on activities were created that foster understanding of monetary value.',
+                'myeducacinrol': 'Role played: Front-End and Back-End',
+                'verproyecto': 'Ver Proyecto',
+
+                'appismnest':'A desktop application for recording sea turtle nests, optimizing data collection and management through the use of C# and MySQL.',
+                'ismnestinfo':'The application allows you to register and monitor sea turtle nests, facilitating their monitoring and contributing to their conservation.',
+                'ismnestrol':'Role played: Front-End and Back-End',
+
+                'nevado':'A realistic 3D image of a house covered in snow and trees, using Blender, to create an immersive winter atmosphere.',
+                'nevadoinfo':'A detailed scene has been created, textured and rendered three-dimensional scenes in order to evoke an evocative and captivating winter landscape.',
+                'nevadorol':'Role played: 3D Designer',
+
+                //T E S T I M O N I O S
+                'testimonio': 'Testimonials',
+                'testimonio1': `I, Herbert René Cordero Henríquez, Graduate by profession and professor at the Gerardo Barrios University, hereby give my recommendation to Samuel Isaí Mejía Alfaro who is my student, studying Computer Systems and Network Engineering and whom I have known for 4 years.
+                    As a student he has shown respect to teachers and classmates, complete dedication to study activities and projects. Demonstrates good skills, teamwork and availability in the tasks of the Faculty of Science and Technology and a great sense of responsibility.
+                    He is an excellent person, with great charisma and social skills; Her strategic way of thinking makes her very suitable for carrying out any task. Due to his aptitude and attitude, he has great interest in improving himself. So I am sure that she will become one of the best in whatever she does or undertakes.
+                    For the uses that the interested party deems appropriate, this document is extended to the eleventh day of the month of June, two thousand twenty-four.`,
+                'cargo1': `Professor at the Faculty of Science and Technology`,
+                'testimonio2': `I Oscar Roberto Torres Rodríguez, Graduate in Computing from and domicile in Santa Elena and currently a full-time professor at the Faculty of Sciences and Technologies of the Gerardo Barrios University of Usulután, HEREBY STATE THAT:
+                    Samuel Isaí Mejía Alfaro, is a student of the VII cycle of Engineering in Computer Systems and Networks, at the “Gerardo Barrios” University, I affirm that he is a person of excellent conduct, honest, blameless, responsible in all his actions and regarding his role as a student is disciplined, self-taught, and his team participation is exemplary, showing an ability to collaborate effectively with his peers. In addition, he has extensive knowledge in key areas such as networks and databases, and his willingness to share this knowledge promises to contribute significantly to the advancement of the academic and professional community.
+                    For the uses that the interested party deems appropriate, I extend this to you in the city of Usulután on the 11th day of June 2024.`,
+                'testimonio3': `Receive a cordial and respectful greeting. Through these lines I wish to inform you that Samuel Isai Mejia Alfaro, who is a student of a degree in systems engineering and
+                    computer networks, is a student with impeccable conduct. He has proven to be an orderly,
+                    committed, responsible and faithful fulfiller of his tasks. He has always expressed concern
+                    to improve, train and update their knowledge.
+                    
+                    During this I-2024 cycle he has performed excellently in the subject of robotics,
+                    developing a robot based on free software and hardware. That is why I suggest
+                    this recommendation, with the confidence that it will always live up to its commitments and
+                    responsibilities.
+                    
+                    Without anything else to refer to and, hoping that this letter will be taken into account, I leave my email
+                    Contact for any information of interest.`,
+                'testimonio4': `I Alcir Gustavo Quintanilla Rodríguez, Engineer by profession and teacher at the 
+                    Gerardo Barrios University, I give my recommendation through this means of Mejía Alfaro 
+                    Samuel Isaí who is my student, studying Systems Engineering and 
+                    Computer Networks and I have known him for 4 years. 
+                    As a student, he has shown respect to teachers and classmates, completes 
+                    dedication to study activities and projects. Demonstrates good 
+                    skills, teamwork and availability in the tasks of the Faculty of 
+                    Science and Technology and great sense of responsibility. 
+                    He is an excellent person, with great charisma and social skills; his way of 
+                    Strategic thinking makes you very suitable for developing any task. Because of his aptitude 
+                    and attitude has great interest in improving. So I'm sure it will become 
+                    one of the best in whatever they do or undertake. 
+                    For the uses that the interested party deems appropriate, this document extends to the ten 
+                    days of the month of June two thousand twenty-four.`,
+
+
+                //P R E M I O S
+                'premios': 'Awards, and Certifications',
+                'ver': 'See ',
+                'CSC2021': 'Cloud Skills Challenge 2021',
+                'CSC2022': 'Cloud Skills Challenge 2022',
+                'AWS': 'AWS Discovery Day',
+                'competencia': 'Third Place Robotics Competition',
+
+
+                //C O N T A C T O
+                'contacto': 'Contact',
+                'email': 'Email',
+                'telefono': 'Telephone',
+                'pais': 'Country',
+                'distrito': 'District',
+                'nombre...': 'Name...',
+                'correo...': 'Your email...',
+                'mensaje': 'Message',
+                'enviar': 'Send',
+
+                //CopyRigh
+                'footer': 'Thank you for considering my profile. I am excited about the opportunity to contribute and learn in a dynamic environment. For more details, visit my social media profiles.',
+                'copyrigh': '© 2024 Samuel. All rights reserved.'
+            }
+        };
+
+        function traducirContenido(idioma) {
+            console.log('Cambiando a idioma:', idioma);
+
+            var elementosTraducir = document.querySelectorAll('.traducir');
+            elementosTraducir.forEach(function (elemento) {
+                var clave = elemento.getAttribute('data-traduccion');
+                if (traducciones[idioma] && traducciones[idioma][clave]) {
+                    if (elemento.tagName === 'INPUT' || elemento.tagName === 'TEXTAREA') {
+                        if (elemento.type === 'submit') {
+                            elemento.value = traducciones[idioma][clave];
+                        } else {
+                            elemento.placeholder = traducciones[idioma][clave];
+                        }
+                    } else {
+                        elemento.innerText = traducciones[idioma][clave];
+                    }
+                }
+            });
+        }
+
+        var checkbox = document.getElementById("miCheckbox");
+
+        checkbox.addEventListener("change", function () {
+            if (checkbox.checked) {
+                traducirContenido('en',);
+                console.log(traducciones);
+            } else {
+                traducirContenido('es',);
+                console.log(traducciones);
+            }
+        });
+
+
+        function descargarCV() {
+            var rutaArchivo = 'doc/Curriculum__.pdf';
+
+            var link = document.createElement('a');
+            link.href = rutaArchivo;
+            link.download = 'CurriculumCV.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        document.getElementById("donwloadButton").addEventListener('click', descargarCV);
+
+
+        var proyectos = document.querySelectorAll('.proyecto');
+
+    </script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
